@@ -1,0 +1,8 @@
+Pillow
+pillow-heif
+rembg
+transparent-background
+onnxruntime
+opencv-python
+mediapipe
+numpy
