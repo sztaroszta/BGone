@@ -4,7 +4,7 @@ A user-friendly, cross-platform GUI utility designed to remove the background fr
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<p align="center"> <img src="assets/assets/ai_bg_remover_banner.jpg" alt="BGone" width="1200"/> </p>
+<p align="center"> <img src="assets/ai_bg_remover_banner.jpg" alt="BGone" width="1200"/> </p>
 
 **➡️ Read more about the project, its features, and development in my [Medium story.](https://medium.com/@starosta/ai-background-remover-tool-9c30dded5387
 )** 
@@ -92,9 +92,9 @@ python ai_bg_remover.py
 
 **2. Follow the GUI Prompts:**
 *   **Select Input Image:** A file dialog will open. Navigate to and select the image you want to process.
-*   **MChoose Output Location:** A "Save As" dialog will appear. Choose a folder and enter a base name for your output files (e.g., processed_image). The script will automatically add model-specific suffixes.
+*   **Choose Output Location:** A "Save As" dialog will appear. Choose a folder and enter a base name for your output files (e.g., processed_image). The script will automatically add model-specific suffixes.
 *   **Select Models:** A dialog window will appear with a list of all available AI models. Check the boxes for the models you want to use. Use the "Select All" and "Deselect All" buttons for convenience.
-    <p align="center"> <img src="assets/model_selection.png" alt="Model Selection Dialog" width="800"/> </p>
+    <p align="center"> <img src="assets/model_selection.png" alt="Model Selection Dialog" height="450"/> </p>
 *   **Process:** Click the "Process" button to begin.
 *   **Monitor Console:** Watch the terminal/console for real-time progress, including model initialization and save confirmations.
 *   **Review Results:** Once complete, navigate to the output directory you chose. You will find the processed, transparent PNG files, each named with the model that generated it (e.g., processed_image_rembg_u2net.png, processed_image_mediapipe_selfie.png).
@@ -103,7 +103,7 @@ python ai_bg_remover.py
 ## Project Structure
 
 ```
-VoidFinder/
+BGone/
 ├── ai_bg_remover.py        # Main script for running the tool
 ├── README.md               # Project documentation
 ├── requirements.txt        # List of dependencies
@@ -163,4 +163,4 @@ Erase the background, not your creativity! ✨
 **Version:** 4  
 **Concept Date:** 2025-05-22 
 
-<p align="left"><img src="assets/ai_bg_remover_banner_2.png" alt="BGone Banner 2" width="500"/> </p>
+<p align="left"><img src="assets/ai_bg_remover_banner_2.png" alt="BGone Banner 2" width="600"/> </p>
